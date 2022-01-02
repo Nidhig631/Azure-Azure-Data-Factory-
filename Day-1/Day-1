@@ -1,0 +1,30 @@
+Azure Data Factory:
+1)used as Azure Service.
+2)used as ETL-
+
+E- Extract
+T- Transform
+L- Load
+
+3) ETL can be done using SSIS also.
+SSIS - ETL pipelines - destintion data - Power BI
+Example:
+Game - 
+generate logs and need to store these logs so come ADF.
+ADL - Azure Data Lake(raw data) used by Big data (huge amount of unstructured data)
+
+4) Azure Data Factory build for complex hybrid:
+1) ETL
+2) ELT 
+3) data integration
+
+Top level concepts in Azure Data Factory
+1) pipeline-
+can have mutiple pipelines. Logical grouping of activities 
+that performs a unit of work.
+main goal - create and run pipeline.
+
+2) Activity
+3) Data sets
+4) Linked Services
+5) Tiggers
